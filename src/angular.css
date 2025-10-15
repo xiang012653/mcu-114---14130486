@@ -1,0 +1,23 @@
+section.container {
+  margin: 0px auto;
+  margin-top: 50px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 10px;
+}
+
+img {
+  width: 100px;
+  grid-row: 1 / 5;
+}
+h3,
+div.toolbar {
+  text-align: center;
+  align-self: center;
+}
+
+div.column {
+  font-style: 20px;
+  align-self: center;
+}
