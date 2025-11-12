@@ -13,9 +13,9 @@ header {
     display: flex;
     gap: 1.5rem;
   }
+
   div {
     display: flex;
-    align-items: center;
 
     &.left {
       gap: 2rem;
@@ -41,17 +41,18 @@ header {
           outline: none;
         }
       }
-    }
 
-    button {
-      border-top-right-radius: 1rem;
-      border-bottom-right-radius: 1rem;
-      padding: 0.5rem;
-      border: none;
-      background-color: var(--gray-color-100);
-      cursor: pointer;
+      button {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding: 0.5rem;
+        border: none;
+        background-color: var(--gray-color-100);
+        cursor: pointer;
+      }
     }
   }
+
   button {
     background-color: transparent;
     padding: 0.5rem;

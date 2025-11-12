@@ -16,10 +16,11 @@ section {
         height: 4rem;
 
         display: flex;
-        justify-self: space-between;
+        justify-content: space-between;
         align-items: center;
       }
     }
+
     &.main {
       flex-grow: 1;
     }
