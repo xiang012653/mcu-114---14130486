@@ -15,13 +15,14 @@ header {
   }
 
   nav {
-    display: flex;
+    display: var(--nav-display);
     gap: 1.5rem;
   }
 
   div {
     display: flex;
-
+    align-items: center;
+    
     &.left {
       gap: 2rem;
     }
