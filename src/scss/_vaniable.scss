@@ -1,0 +1,11 @@
+:root{
+--search-bar-display: flex;
+--book-min-width:256px;
+@media screen and (max-width: 1024px){
+--search-bar-display: none;
+--aside-display:none;
+--book-min-width:256px;
+
+
+} 
+}

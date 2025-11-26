@@ -9,6 +9,7 @@ div.main {
     }
   }
   aside {
+    display: var(--aside-display);
     width: 20%;
     flex-shrink: 0;
 
@@ -81,7 +82,7 @@ div.main {
 
     div.books {
       display: flex;
-      grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(var(--book-min-width), 1fr));
       row-gap: 2.5rem;
       column-gap: 1.5rem;
 
