@@ -9,13 +9,34 @@ section {
       padding-left: var(--container-padding-left);
       padding-right: var(--container-padding-right);
 
-      > div {
+      >div {
         width: 100%;
         height: 4rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
       }
+    }
+  }
+
+  main.wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-left: var(--container-padding-left);
+    padding-right: var(--container-padding-right);
+
+    >div {
+      padding-block: 4rem;
+
+      &.home {
+        height: 100vh;
+      }
+
+      &.page {
+        outline: solid 1px red;
+        min-height: 700px;
+      }
+
     }
   }
 }
